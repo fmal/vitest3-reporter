@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json.schemastore.org/lefthook.json",
+  "pre-push": {
+    "follow": true,
+    "commands": {
+      "test": {
+        "run": "npm run test:run"
+      }
+    }
+  }
+}
